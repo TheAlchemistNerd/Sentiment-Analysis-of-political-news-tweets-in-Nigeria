@@ -5,8 +5,10 @@ import requests
 import pandas as pd
 from dotenv import load_dotenv
 
+# loads a '.env' file that contains the authentication keys
 load_dotenv()
 
+# authentication keys
 consumer_key = os.environ["API_KEY"]
 consumer_secret = os.environ["API_KEY_SECRET"]
 bearer_token = os.environ["BEARER_TOKEN"]
